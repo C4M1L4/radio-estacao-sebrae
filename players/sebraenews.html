@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estação Sebrae</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../content/global.css">
+        <script type="text/javascript" src="../java/FWDURP.js"></script>
+        <style> 
+            body{
+                background-image: url("../content/thumbnails/brilho_escuro.jpg");
+            }
+            
+            #player5{
+                margin:auto;
+                margin-top:100px;
+            }
+        </style>
+        <script type="text/javascript">
+            FWDURPUtils.onReady(function(){
+                new FWDURP({
+                    //main settings
+                    instanceName:"sebraenews",
+                    parentId:"player5",
+                    playlistsId:"PLsebraenews",
+                    mainFolderPath:"../content",
+                    skinPath:"metal_skin_dark",
+                    useDeepLinking:"yes",
+                    addKeyboardSupport:"yes",
+                    proxyCors:"",
+                    privatePassword:"428c841430ea18a70f7b06525d4b748a",
+                    useVectorIcons:"no",
+                    useHEXColorsForSkin:"no",
+                    normalHEXButtonsColor:"#FF0000",
+                    normalHEXButtonsColor2:"#888888",
+                    rightClickContextMenu:"developer",
+                    showButtonsToolTips:"yes",
+                    initializeOnlyWhenVisible:"no",
+                    autoPlay:"no",
+                    maxWidth:801,
+                    volume:80,
+                    toolTipsButtonsHideDelay:1.5,
+                    defaultThumbnail:"../content/thumbnails/default.png",
+                    toolTipsButtonsBackgroundColor:"#000000",
+                    toolTipsButtonFontColor:"#FFFFFF",
+                    //controller settings
+                    showNextAndPrevButtons:"yes",
+                    showThumbnail:"yes",
+                    showVolumeButton:"yes",
+                    showInfoButton:"yes",
+                    showShareButton:"yes",
+                    expandBackground:"no",
+                    titleColor:"#FFFFFF",
+                    timeColor:"#888888",
+                    //controller align and size settings (described in detail in the documentation!)
+                    controllerHeight:76,
+                    startSpaceBetweenButtons:9,
+                    spaceBetweenButtons:8,
+                    separatorOffsetOutSpace:5,
+                    separatorOffsetInSpace:9,
+                    equlizerOffsetLeft:1,
+                    //playlist window settings
+                    showPlaylistButtonAndPlaylist:"yes",
+                    showPlaylistByDefault:"no",
+                    randomizePlaylist:"no",
+                    thumbnailSelectedType:"opacity",
+                    showSearchBar:"yes",
+                    startAtRandomTrack:"no",
+                    startAtTrack:0,
+                    buttonsMargins:15,
+                    thumbnailMaxWidth:350, 
+                    thumbnailMaxHeight:350,
+                    horizontalSpaceBetweenThumbnails:40,
+                    verticalSpaceBetweenThumbnails:40,
+                    inputSearchTextOffsetTop:1,
+                    searchInputColor:"#999999",
+                    //history settings
+                    showHisotryButtonAndHisotry:"yes",
+                    showHisotryByDefault:"yes",
+                    showHistoryNumbers:"yes",
+                    playlistBackgroundColor:"#000000",
+                    playlistItemHeight:33,
+                    nrOfVisiblePlaylistItems:6,
+                    trackTitleOffsetLeft:10,
+                    //playback rate / speed
+                    showPlaybackRateButton:"yes",
+                    playbackRateCloseButtonMargin:7,
+                    defaultPlaybackRate:1, //min - 0.5 / max - 3
+                    playbackRateWindowTextColor:"#FFFFFF",
+                    //password window
+                    borderColor:"#333333",
+                    secondaryLabelsColor:"#a1a1a1",
+                    textColor:"#5a5a5a",
+                    inputBackgroundColor:"#000000",
+                    inputColor:"#FFFFFF",
+                    inputSearchOffsetLeft:0,
+                    //visualizer
+                    useVisualizer:'yes',
+                    visualizerRandomPreset:"no",
+                    visualizerPreset:"wave2",
+                    visualizerColor:["#AAAAAA", "#999999", "#888888", "#777777", "#666666"],
+                    visualizerCapColor: "#FFFFFF",
+                    //popup settings
+                    showPopupButton:"yes",
+                    popupWindowBackgroundColor:"#878787",
+                    popupWindowWidth:750,
+                    popupWindowHeight:275,
+                    //login
+                    playIfLoggedIn:"no",
+                    playIfLoggedInMessage:"Please <a href='https://google.com' target='_blank'>login</a> to access this station."
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
+            <a href="../index.html"><img src="../content/thumbnails/logo-estacao-sebrae.png" alt></a>
+        </div>
+        <div id="player5"></div>
+        <ul id="PLsebraenews" style="display:none;" >
+            <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
+                <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
+                <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>NOTÍCIAS</p>
+                <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
+            </li>
+        </ul>
+    </body>
+</html>

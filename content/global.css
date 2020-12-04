@@ -1,0 +1,544 @@
+/* Player font. */
+@import url('https://fonts.Googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+
+/* Vector font. */
+@font-face {
+  font-family: 'fwdurp-icon';
+  src:  url('fonts/fwdurp-icon.eot?kj97zv');
+  src:  url('fonts/fwdurp-icon.eot?kj97zv#iefix') format('embedded-opentype'),
+    url('fonts/fwdurp-icon.ttf?kj97zv') format('truetype'),
+    url('fonts/fwdurp-icon.woff?kj97zv') format('woff'),
+    url('fonts/fwdurp-icon.svg?kj97zv#fwdurp-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fwdurp-icon-"], [class*=" fwdurp-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'fwdurp-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fwdurp-icon-buffer:before {
+  content: "\e900";
+}
+.fwdurp-icon-close:before {
+  content: "\e901";
+}
+.fwdurp-icon-digg:before {
+  content: "\e902";
+}
+.fwdurp-icon-facebook:before {
+  content: "\e903";
+}
+.fwdurp-icon-FF-left:before {
+  content: "\e904";
+}
+.fwdurp-icon-FF-right:before {
+  content: "\e905";
+}
+.fwdurp-icon-flikr:before {
+  content: "\e906";
+}
+.fwdurp-icon-google-plus:before {
+  content: "\e907";
+}
+.fwdurp-icon-info:before {
+  content: "\e908";
+}
+.fwdurp-icon-instagram:before {
+  content: "\e909";
+}
+.fwdurp-icon-link:before {
+  content: "\e90a";
+}
+.fwdurp-icon-linkedin:before {
+  content: "\e90b";
+}
+.fwdurp-icon-pause:before {
+  content: "\e90c";
+}
+.fwdurp-icon-play:before {
+  content: "\e90d";
+}
+.fwdurp-icon-playlist:before {
+  content: "\e90e";
+}
+.fwdurp-icon-playlists:before {
+  content: "\e90f";
+}
+.fwdurp-icon-popup:before {
+  content: "\e910";
+}
+.fwdurp-icon-reddit:before {
+  content: "\e911";
+}
+.fwdurp-icon-share:before {
+  content: "\e912";
+}
+.fwdurp-icon-tumblr:before {
+  content: "\e913";
+}
+.fwdurp-icon-twitter:before {
+  content: "\e914";
+}
+.fwdurp-icon-volume:before {
+  content: "\e915";
+}
+.fwdurp-icon-watch-later:before {
+  content: "\e916";
+}
+
+/* Vector icons. */
+.table-fwdurp-button { 
+  display: table; width:100%; height:100%;
+}
+
+.table-cell-fwdurp-button {
+  display: table-cell; width:100%; height: 100%; vertical-align: middle; text-align:center;
+}
+
+.fwdurp-close-button-normal-state,
+.fwdurp-categories-next-and-prev-normal-state{
+  position:absolute;
+  font-size:16px;
+  width:40px;
+  height:39px;
+  cursor: pointer;
+  background-color:#000 !important;
+  color:#FFF;
+}
+
+.fwdurp-close-button-selected-state,
+.fwdurp-categories-next-and-prev-selected-state{
+  position:absolute;
+  font-size:16px;
+  width:40px;
+  height:39px;
+  cursor: pointer;
+  background-color:#000!important;
+  color:#F00;
+}
+
+.fwdurp-categories-next-and-prev-normal-state{
+  color:#BBBBBB;
+}
+
+.fwdurp-categories-next-and-prev-selected-state{
+  color:#FFFFFF;
+}
+
+
+.fwdurp-categories-background .fwdurp-icon-FF-right:before{
+  position: relative;
+  left: 2px;
+}
+
+.fwduvp-categories-background .fwdurp-icon-close:before{
+  position: relative;
+  top: 2px;
+}
+
+.fwdurp-social-media-buttons-normal-state{
+  font-size:18px !important;
+  color:#aaaaaa !important;
+  font-weight:100;
+}
+
+.fwdurp-social-media-buttons-selected-state{
+  font-size:18px !important;
+  color:#FFFFFF !important;
+}
+
+.fwdurp-icon-scroll-down,
+.fwdurp-icon-scrool-up,
+.fwdurp-icon-sort-numbers,
+.fwdurp-icon-sort-letters{
+  font-size:18px !important;
+}
+
+.fwdurp-icon-small.fwdurp-icon-download:before,
+.fwdurp-icon-small.fwdurp-icon-cart:before{
+  font-size:14px !important;
+  top: -4px !important;
+}
+
+
+.fwdurp-main-button-normal-state{
+	font-family: "fwdicon";
+	overflow: visible!important;
+	font-size: 19px !important;
+	color:#999999 !important;
+}
+
+.fwdurp-main-button-selected-state{
+	font-family: "fwdicon";
+	overflow: visible !important;
+	font-size: 19px !important;
+	color:#FFFFFF !important;
+}
+
+.fwdurp-main-button-normal-state .fwdurp-icon-play:before,
+.fwdurp-main-button-selected-state .fwdurp-icon-play:before{
+	font-size: 30px;
+}
+
+.fwdurp-main-button-normal-state .fwdurp-icon-pause:before,
+.fwdurp-main-button-selected-state .fwdurp-icon-pause:before{
+	font-size: 26px;
+	left: -1px;
+}
+
+.fwdurp-icon-shuffle:before{
+  font-size: 24px !important;
+  top: -1px;
+}
+
+.fwdurp-icon-loop:before{
+  
+}
+
+.fwdurp-icon-AB:before{
+  font-size: 23px !important;
+  top: -1px;
+}
+
+.fwdurp-icon-cart:before,
+.fwdurp-icon-download:before{
+  font-size: 19px !important;
+  top: -1px;
+}
+
+/* ############################################################## */
+/* Dark skin. */
+/* ##############################################################  */
+
+/* Categories. */
+.fwdurp-categories-dark-text{
+	font: 400 14px Roboto, Arial !important;
+}
+
+.fwdurp-categories-dark-text .fwdurp-header{
+	color: #FFFFFF !important;
+}
+
+.fwdurp-categories-dark-text.active .fwdurp-title{
+	color: #FFFFFF !important;
+}
+
+.fwdurp-categories-dark-text .fwdurp-categories-title{
+	margin: 10px 15px 0 !important;
+	line-height: 1.8 !important;
+}
+
+.fwdurp-categories-dark-text .fwdurp-title{
+	font-weight: bold;
+	line-height: 18px !important;
+	color:#999 !important;
+	transition: all .3s ease-out !important;
+}
+
+.fwdurp-categories-dark-text .fwdurp-categories-type{
+	color:#999 !important;
+	line-height: 18px !important;
+	margin: 2px 15px 0 !important;
+}
+
+.fwdurp-categories-dark-text .fwdurp-categories-description{
+	color:#999 !important;
+	line-height: 18px !important;
+	margin: 5px 15px 13px !important;
+}
+
+.fwdurp-link a:link    {color:#0099FF !important;}
+.fwdurp-link a:visited {color:#0099FF !important;}
+.fwdurp-link a:hover   {color:#DDDDDD !important;}
+.fwdurp-link a:active  {color:#0099FF !important;}
+
+.fwdurp-search-input{
+	font-family: Roboto, Arial !important;
+}
+
+/* Controler. */
+.fwdurp-controler{}
+
+.fwdurp-controler-title{
+  font: 400 12px Roboto, Arial !important;
+  line-height: 1 !important;
+}
+
+.fwdurp-controller-time{
+  font: 400 12px Roboto, Arial !important;
+  padding: 4px 5px 3px 6px !important;
+}
+
+.fwdurp-controler-tooltip-text{
+  font: 400 12px Roboto, Arial !important;
+}
+
+.fwdurp-volume-text{
+  font: 400 12px Roboto, Arial !important;
+}
+
+
+/* History. */
+.fwdurp-hostory-item-dark-text{
+  font: 400 12px Roboto, Arial !important;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-count{
+  color:#888888;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-title{
+  color:#999999;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-played-at{
+  color:#888888;
+}
+
+
+.fwdurp-hostory-item-dark-text .fwdurp-date{
+  color:#888888;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-count-active{
+  color:#888888;
+}
+
+.fwdurp-controler-dark-title .fwdurp-title-active,
+.fwdurp-hostory-item-dark-text .fwdurp-title-active{
+  color:#FFFFFF !important;
+}
+
+.fwdurp-controler-dark-title .fwdurp-line,
+.fwdurp-hostory-item-dark-text .fwdurp-line{
+  color:#888888;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-played-at-active{
+  color:#888888;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-line-active{
+  color:#888888;
+}
+
+.fwdurp-hostory-item-dark-text .fwdurp-date-active{
+  color:#888888;
+}
+
+
+/* Info window. */
+.fwdurp-info-window-dark-text{
+  font: 400 12px Roboto, Arial !important;
+  line-height: 20px !important;
+}
+
+.current-listeners-label{
+  color:#999999;
+}
+
+.current-listeners{
+  color:#FFFFFF;
+}
+
+.fwdurp-bitrate-label{
+  color:#999999;
+}
+
+.fwdurp-bitrate{
+  color:#FFFFFF;
+}
+
+.fwdurp-genre-label{
+  color:#999999;
+}
+
+.fwdurp-genre{
+  color:#FFFFFF;
+}
+
+.fwdurp-station-label{
+  color:#999999;
+}
+
+.fwdurp-station{
+  color:#FFFFFF;
+}
+
+/* Playback rate window. */
+.fwdurp-playbackrate-text{
+  font: 400 12px Roboto, Arial !important;
+}
+
+/* Logged in window. */
+.fwdurp-loggedin-message-dark{
+  font: 400 14px Roboto, Arial !important;
+  color: #999999 !important;
+}
+
+.fwdurp-loggedin-message-dark a{
+  background-image: linear-gradient(#FFF calc(100% - 1px), #FFF 1px);
+  background-size: 0% 2px;
+  color: #CCC;
+}
+
+.fwdurp-loggedin-message-dark a:hover{
+  color: #FFF;
+}
+
+.fwdurp-label{
+  font: 400 12px Roboto, Arial !important;
+}
+
+
+
+
+
+
+/* ############################################################## */
+/* White skin. */
+/* ##############################################################  */
+
+/* Categories. */
+.fwdurp-categories-white-text{
+	font: 400 14px Roboto, Arial !important;
+}
+
+.fwdurp-categories-white-text .fwdurp-header{
+	font-weight: 500;
+	color: #000000 !important;
+}
+
+.fwdurp-categories-white-text.active .fwdurp-title{
+	color: #000000 !important;
+}
+
+.fwdurp-categories-white-text .fwdurp-categories-title{
+	font-weight: 500;
+	margin: 10px 15px 0 !important;
+	line-height: 1.8 !important;
+}
+
+.fwdurp-categories-white-text .fwdurp-title{
+	font-weight: bold;
+	line-height: 18px !important;
+	color:#666 !important;
+	transition: all .3s ease-out !important;
+}
+
+.fwdurp-categories-white-text .fwdurp-categories-type{
+	color:#666 !important;
+	line-height: 18px !important;
+	margin: 2px 15px 0 !important;
+}
+
+.fwdurp-categories-white-text .fwdurp-categories-description{
+	color:#666 !important;
+	line-height: 18px !important;
+	margin: 5px 15px 13px !important;
+}
+
+/* History. */
+.fwdurp-hostory-item-white-text .fwdurp-count{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-title{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-played-at{
+  color:#777777;
+}
+
+
+.fwdurp-hostory-item-white-text .fwdurp-date{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-count-active{
+  color:#777777;
+}
+
+.fwdurp-controler-white-title .fwdurp-title-active,
+.fwdurp-hostory-item-white-text .fwdurp-title-active{
+  color:#000000 !important;
+}
+
+.fwdurp-controler-white-title .fwdurp-line,
+.fwdurp-hostory-item-white-text .fwdurp-line{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-played-at-active{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-line-active{
+  color:#777777;
+}
+
+.fwdurp-hostory-item-white-text .fwdurp-date-active{
+  color:#777777;
+}
+
+/* Info window. */
+.fwdurp-info-window-white-text .current-listeners-label{
+  color:#777777;
+}
+
+.fwdurp-info-window-white-text .current-listeners{
+  color:#000000;
+}
+
+.fwdurp-info-window-white-text .fwdurp-bitrate-label{
+  color:#777777;
+}
+
+.fwdurp-info-window-white-text .fwdurp-bitrate{
+  color:#000000;
+}
+
+.fwdurp-info-window-white-text .fwdurp-genre-label{
+  color:#777777;
+}
+
+.fwdurp-info-window-white-text .fwdurp-genre{
+  color:#000000;
+}
+
+.fwdurp-info-window-white-text .fwdurp-station-label{
+  color:#777777;
+}
+
+.fwdurp-info-window-white-text .fwdurp-station{
+  color:#000000;
+}
+
+.fwdurp-loggedin-message-white{
+  font: 400 14px Roboto, Arial !important;
+  color: #666666 !important;
+}
+
+.fwdurp-loggedin-message-white a{
+  background-image: linear-gradient(#000000 calc(100% - 1px), #000000 1px);
+  background-size: 0% 2px;
+  color: #0099FF;
+}
+
+.fwdurp-loggedin-message-white a:hover{
+  color: #000000;
+}
