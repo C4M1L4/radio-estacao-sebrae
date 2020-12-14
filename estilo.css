@@ -1,16 +1,27 @@
-.zoom {
-    overflow: hidden;
+#topo{
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 180px;
+    width: 100%;
+}
+
+.zoom a, .legenda{
+    display:inline-block;
     width: 300px;
-    margin: 100px;
-	display: inline-block;
+    height: 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 5px;
+    overflow: hidden;
 }
 
-.zoom h2{
-    text-align: center;
-    color: white;
+.zoom .legenda{
+    text-align: left;
 }
 
-.zoom img {
+/*.zoom img {
 	max-width: 100%;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
@@ -27,84 +38,37 @@
     margin-top: 25px;
     text-align: center;
     color: #777;
-}
+}*/
 
-#rodape a{
-    color: #282b2d;
-    font-size: 18px;
+hr{
+    border-color:rgb(209, 205, 205);
+    box-sizing:border-box;
+    width:100%; 
+  }
+
+#rodape{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    background-color: rgb(230, 230, 231);
+    width: 100%;
 }
 
 #rodape .rodape-social{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-   /* background-color: rgb(6, 7, 61);*/
+    display: inline-block;
+    margin-left: 15px;
 }
 
 #rodape .fa{
-    font-size: 36px;
-    margin-right: 15px;
-    margin-left: 20px;
-    background-color: white;
-    color:rgb(6, 7, 61);
-    border-radius: 51%;
-    padding: 10px;
-    height: 60px;
-    width: 60px;
-    text-align: center;
-    line-height: 43px;
-    text-decoration: none;
-    transition:color 0.2s;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: #005eb8;
+    color:white;
+    border-radius: 55%;
+    padding: 15px;
+    height: 52px;
+    width: 52px;
+    line-height: 25px;
 }
 
-#rodape .fa-facebook:hover{
-   color: #2b55ff;
-}
-
-#rodape .fa-facebook:focus{
-    color: #2b55ff; 
-}
-
-#rodape .fa-instagram:hover{
-    color:purple;
-}
-
-#rodape .fa-instagram:focus{
-    color:purple;
-}
-
-#rodape .fa-youtube:hover{
-    color:red;
-}
-
-#rodape .fa-youtube:focus{
-    color:red;
-}
-
-#rodape .fa-twitter:hover{
-    color: #00aced;
-
-}
-
-#rodape .fa-twitter:focus{
-    color:#00aced;
-}
-
-html{
-    height: 100%;
-}
-
-body{
-    background-image: url("content/thumbnails/onda_azul.jpg");
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
-
-.content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 200px;
-}
