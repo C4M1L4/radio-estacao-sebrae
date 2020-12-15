@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <title>Estação Sebrae</title>
         <meta charset="utf-8">
@@ -7,7 +7,7 @@
         <script type="text/javascript" src="../java/FWDURP.js"></script>
         <style> 
             body{
-                background-image: url("../content/thumbnails/brilho_escuro.jpg");
+                background-color:black;
             }
             
             #player3{
@@ -112,16 +112,20 @@
         </script>
     </head>
     <body>
-        <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
-            <a href="../index.html"><img src="../content/thumbnails/logo-estacao-sebrae.png" alt></a>
-        </div>
-        <div id="player3"></div>
-        <ul id="PLcampanhas" style="display:none;" >
-            <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
-                <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
-                <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>CAMPANHAS</p>
-                <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
-            </li>
-        </ul>
+        <header>
+            <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
+                <a href="../index.html"><img src="../content/thumbnails/logo_estacao_sebrae.png" alt></a>
+            </div>
+        </header>
+        <article>
+            <div id="player3"></div>
+            <ul id="PLcampanhas" style="display:none;" >
+                <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
+                    <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
+                    <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>CAMPANHAS</p>
+                    <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
+                </li>
+            </ul>
+        </article>        
     </body>
 </html>
