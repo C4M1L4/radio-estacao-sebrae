@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="../content/global.css">
         <script type="text/javascript" src="../java/FWDURP.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <style> 
             body{
                 background-color:black;
@@ -112,16 +113,23 @@
         </script>
     </head>
     <body>
-        <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
-            <a href="../index.html"><img src="../content/thumbnails/logo_estacao_sebrae.png" alt></a>
-        </div> 
-        <div id="player1"></div>
-        <ul id="PLmusicas" style="display:none;" >
-            <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
-                <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
-                <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>MP3</p>
-                <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
-            </li>
-        </ul>
+        <header>
+            <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
+                <img src="../content/thumbnails/logo_estacao_sebrae.png" alt>
+            </div>
+        </header>
+        <article>
+            <div id="player1"></div>
+            <ul id="PLmusicas" style="display:none;" >
+                <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
+                    <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
+                    <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>MP3</p>
+                    <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
+                </li>
+            </ul>
+            <div class="botao" style="text-align: center; margin-top: 100px;">
+                <a href="../index.html"><button type="button" class="btn btn-primary btn-lg">Voltar</button></a>
+            </div>
+        </article>
     </body>
 </html>
