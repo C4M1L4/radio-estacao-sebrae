@@ -24,7 +24,7 @@
                     parentId:"player3",
                     playlistsId:"PLcampanhas",
                     mainFolderPath:"../content",
-                    skinPath:"metal_skin_dark",
+                    skinPath:"metal_skin_white",
                     useDeepLinking:"yes",
                     addKeyboardSupport:"yes",
                     proxyCors:"",
@@ -37,7 +37,7 @@
                     showButtonsToolTips:"yes",
                     initializeOnlyWhenVisible:"no",
                     autoPlay:"no",
-                    maxWidth:801,
+                    maxWidth:900,
                     volume:80,
                     toolTipsButtonsHideDelay:1.5,
                     defaultThumbnail:"../content/thumbnails/default.png",
@@ -50,14 +50,14 @@
                     showInfoButton:"yes",
                     showShareButton:"yes",
                     expandBackground:"no",
-                    titleColor:"#FFFFFF",
+                    titleColor:"#333333",
                     timeColor:"#888888",
                     //controller align and size settings (described in detail in the documentation!)
-                    controllerHeight:76,
-                    startSpaceBetweenButtons:9,
-                    spaceBetweenButtons:8,
-                    separatorOffsetOutSpace:5,
-                    separatorOffsetInSpace:9,
+                    controllerHeight:90,
+                    startSpaceBetweenButtons:20,
+                    spaceBetweenButtons:15,
+                    separatorOffsetOutSpace:20,
+                    separatorOffsetInSpace:10,
                     equlizerOffsetLeft:1,
                     //playlist window settings
                     showPlaylistButtonAndPlaylist:"yes",
@@ -86,7 +86,7 @@
                     showPlaybackRateButton:"yes",
                     playbackRateCloseButtonMargin:7,
                     defaultPlaybackRate:1, //min - 0.5 / max - 3
-                    playbackRateWindowTextColor:"#FFFFFF",
+                    playbackRateWindowTextColor:"#333333",
                     //password window
                     borderColor:"#333333",
                     secondaryLabelsColor:"#a1a1a1",
@@ -98,7 +98,7 @@
                     useVisualizer:'yes',
                     visualizerRandomPreset:"no",
                     visualizerPreset:"wave2",
-                    visualizerColor:["#AAAAAA", "#999999", "#888888", "#777777", "#666666"],
+                    visualizerColor:["#00FF00", "#48D1CC", "#40E0D0", "#00FFFF", "#E0FFFF"],
                     visualizerCapColor: "#FFFFFF",
                     //popup settings
                     showPopupButton:"yes",
@@ -115,16 +115,16 @@
     <body>
         <header>
             <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
-                <img src="../content/thumbnails/logo_estacao_sebrae.png" alt>
+                <img src="../content/thumbnails/home/logo_estacao_sebrae.png" alt>
             </div>
         </header>
         <article>
             <div id="player3"></div>
             <ul id="PLcampanhas" style="display:none;" >
-                <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="https://144.217.158.181:80" data-type="shoutcast">
-                    <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
-                    <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>CAMPANHAS</p>
-                    <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
+                <li data-title="Progressive Radio" data-playlist-thumbnail-path="content/thumbnails/large1.jpg" data-source="http://144.217.158.181:80" data-type="shoutcast">
+                    <p class="fwdurp-categories-title"><span class="fwdurp-header">Title: </span><span class="fwdurp-title">Progressive Radio</span></p>
+                    <p class="fwdurp-categories-type"><span class="fwdurp-header">Type: </span>SHOUTCAST</p>
+                    <p class="fwdurp-categories-description"><span class="fwdurp-header">Description: </span>ShoutCast server V2. Play history, current playing song title and thumbnail artwork is updated while the station runs.</p>
                 </li>
             </ul>
             <div class="botao" style="text-align: center; margin-top: 100px;">
