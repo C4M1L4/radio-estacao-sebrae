@@ -3,131 +3,21 @@
     <head>
         <title>Estação Sebrae</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="../content/global.css">
-        <script type="text/javascript" src="../java/FWDURP.js"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="../estilo.css"/>
         <style> 
             body{
-                background-color: #005eb8;
-            }
-            
-            #player2{
-                margin:auto;
-                margin-top:100px;
+                background-color: #ffffff;
             }
         </style>
-        <script type="text/javascript">
-            FWDURPUtils.onReady(function(){
-                new FWDURP({
-                    //main settings
-                    instanceName:"podcasts",
-                    parentId:"player2",
-                    playlistsId:"PLpodcasts",
-                    mainFolderPath:"../content",
-                    skinPath:"metal_skin_white",
-                    useDeepLinking:"yes",
-                    addKeyboardSupport:"yes",
-                    proxyCors:"",
-                    privatePassword:"428c841430ea18a70f7b06525d4b748a",
-                    useVectorIcons:"no",
-                    useHEXColorsForSkin:"no",
-                    normalHEXButtonsColor:"#FF0000",
-                    normalHEXButtonsColor2:"#888888",
-                    rightClickContextMenu:"developer",
-                    showButtonsToolTips:"yes",
-                    initializeOnlyWhenVisible:"no",
-                    autoPlay:"no",
-                    maxWidth:900,
-                    volume:80,
-                    toolTipsButtonsHideDelay:1.5,
-                    defaultThumbnail:"../content/thumbnails/default.png",
-                    toolTipsButtonsBackgroundColor:"#000000",
-                    toolTipsButtonFontColor:"#FFFFFF",
-                    //controller settings
-                    showNextAndPrevButtons:"yes",
-                    showThumbnail:"yes",
-                    showVolumeButton:"yes",
-                    showInfoButton:"yes",
-                    showShareButton:"yes",
-                    expandBackground:"no",
-                    titleColor:"#333333",
-                    timeColor:"#888888",
-                    //controller align and size settings (described in detail in the documentation!)
-                    controllerHeight:90,
-                    startSpaceBetweenButtons:20,
-                    spaceBetweenButtons:15,
-                    separatorOffsetOutSpace:20,
-                    separatorOffsetInSpace:10,
-                    equlizerOffsetLeft:1,
-                    //playlist window settings
-                    showPlaylistButtonAndPlaylist:"yes",
-                    showPlaylistByDefault:"no",
-                    randomizePlaylist:"no",
-                    thumbnailSelectedType:"opacity",
-                    showSearchBar:"yes",
-                    startAtRandomTrack:"no",
-                    startAtTrack:0,
-                    buttonsMargins:15,
-                    thumbnailMaxWidth:350, 
-                    thumbnailMaxHeight:350,
-                    horizontalSpaceBetweenThumbnails:40,
-                    verticalSpaceBetweenThumbnails:40,
-                    inputSearchTextOffsetTop:1,
-                    searchInputColor:"#999999",
-                    //history settings
-                    showHisotryButtonAndHisotry:"yes",
-                    showHisotryByDefault:"yes",
-                    showHistoryNumbers:"yes",
-                    playlistBackgroundColor:"#000000",
-                    playlistItemHeight:33,
-                    nrOfVisiblePlaylistItems:6,
-                    trackTitleOffsetLeft:10,
-                    //playback rate / speed
-                    showPlaybackRateButton:"yes",
-                    playbackRateCloseButtonMargin:7,
-                    defaultPlaybackRate:1, //min - 0.5 / max - 3
-                    playbackRateWindowTextColor:"#333333",
-                    //password window
-                    borderColor:"#333333",
-                    secondaryLabelsColor:"#a1a1a1",
-                    textColor:"#5a5a5a",
-                    inputBackgroundColor:"#000000",
-                    inputColor:"#FFFFFF",
-                    inputSearchOffsetLeft:0,
-                    //visualizer
-                    useVisualizer:'yes',
-                    visualizerRandomPreset:"no",
-                    visualizerPreset:"wave2",
-                    visualizerColor:["#00FF00", "#48D1CC", "#40E0D0", "#00FFFF", "#E0FFFF"],
-                    visualizerCapColor: "#FFFFFF",
-                    //popup settings
-                    showPopupButton:"yes",
-                    popupWindowBackgroundColor:"#878787",
-                    popupWindowWidth:750,
-                    popupWindowHeight:275,
-                    //login
-                    playIfLoggedIn:"no",
-                    playIfLoggedInMessage:"Please <a href='https://google.com' target='_blank'>login</a> to access this station."
-                });
-            });
-        </script>
     </head>
     <body>
-        <header>
-            <div style="text-align: center; margin-top:25px; margin-bottom: 80px;">
-                <img src="../content/thumbnails/home/logo_estacao_sebrae.png" alt></a>
-            </div>
+        <header id="topo" style = "text-align:center; margin-bottom: 80px;">
+            <img src="../content/thumbnails/home/logo_estacao_sebrae.png" alt>
         </header>
         <article>
-            <div id="player2"></div>
-            <ul id="PLpodcasts" style="display:none;" >
-                <li data-title="Progressive Radio" data-playlist-thumbnail-path="../content/thumbnails/large1.jpg" data-source="http://rss.castbox.fm/everest/1afc1843a4d94f099f7a0757403df56f.xml" data-type="shoutcast">
-                    <p class="fwdurp-categories-title"><span class="fwdurp-header">Título: </span><span class="fwdurp-title">Progressive Radio</span></p>
-                    <p class="fwdurp-categories-type"><span class="fwdurp-header">Tipo: </span>PODCAST</p>
-                    <p class="fwdurp-categories-description"><span class="fwdurp-header">Descrição: </span>lorem ipsum</p>
-                </li>
-            </ul>
-            <div class="botao" style="text-align: center; margin-top: 100px;">
+            <p style = "text-align:center;"><iframe src="https://castbox.fm/app/castbox/player/id3445632?v=8.22.11&autoplay=0" frameborder="0" width="90%" height="500"></iframe></p>
+            <div class="botao" style="text-align: center; margin-top: 80px; margin-bottom: 50px;">
                 <a href="../index.html"><button type="button" class="btn btn-primary btn-lg">Voltar</button></a>
             </div>
         </article>
