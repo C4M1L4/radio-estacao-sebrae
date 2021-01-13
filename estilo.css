@@ -1,12 +1,8 @@
-h3 {
-    font-family: 'Gotham';
-    font-size: 20px;
-}
-
 #topo {
     top: 0;
     left: 0;
     height: 130px;
+    text-align: center;
     background-image:url("content/thumbnails/home/fundo_header.png");
     -webkit-background-size: 100%;
 }
@@ -38,12 +34,14 @@ h3 {
 	transform: scale(1.1);
 }
 
-.legenda h3 {
+h3 {
+    font-family: 'Gotham';
+    font-size: 20px;
     font-weight:bold;
     color: #005eb8;
 }
 
-.legenda h4 {
+h4 {
     color: #005eb8;
     font-size: 17px;
 }
@@ -54,12 +52,21 @@ hr {
     width:100%; 
 }
 
+.prim_linha, .seg_linha{
+    text-align:center
+}
+
 #rodape {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: rgb(230, 230, 231);
     width: 100%;
+}
+
+#rodape img{
+    width: 200px; 
+    height: 100px;
 }
 
 #rodape .rodape-social {
@@ -80,7 +87,7 @@ hr {
     line-height: 15px;
 }
 
-.rodape-social h4 {
+.rodape-social p {
     font-weight:bold;
     color: #005eb8;
     font-size: 12px;
@@ -91,6 +98,12 @@ hr {
     text-align: center;
     color: #777;
     font-size: 10px;
+}
+
+.botao{
+    text-align:center; 
+    margin-top: 30px; 
+    margin-bottom: 50px;
 }
 
 
